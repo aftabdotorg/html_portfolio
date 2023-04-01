@@ -18,25 +18,34 @@
     <title>Aftab's Portfolio 💻</title>
 
     <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- profile intro -->
-    <table cellspacing="20">
+    <table cellspacing="20" class="intro-table">
       <tr>
         <td>
-          <img src="./images/onetwo.png" alt="profile-pic" height="170" width="170" />
+          <img
+            src="./images/onetwo.png"
+            alt="profile-pic"
+            height="170"
+            width="170"
+          />
         </td>
         <td>
           <h1>Aftab Akhand</h1>
           <p>
             <i>
               Aspirant at
-              <a href="https://www.knowledgehut.com/" target="_blank"
+              <a
+                href="https://www.knowledgehut.com/"
+                target="_blank"
+                class="overline"
                 >KnowledgeHut</a
               >
             </i>
           </p>
-          <p>I 🤍 building designing and building websites!</p>
+          <p>I 🤍 designing and building websites!</p>
         </td>
       </tr>
     </table>
@@ -45,17 +54,19 @@
     <hr />
 
     <!-- courses etc  -->
-    <h3>Courses and Certifications</h3>
-    <ul>
-      <li>The complete Web Devlopment Bootcamp</li>
-      <li>Full Stack Web Development</li>
-    </ul>
+    <div>
+      <h3>Courses and Certifications</h3>
+      <ul>
+        <li>The complete Web Devlopment Bootcamp</li>
+        <li>Full Stack Web Development</li>
+      </ul>
+    </div>
 
     <hr />
 
     <!-- experience section  -->
     <h3>Work Experience</h3>
-    <table cellspacing="10">
+    <table cellspacing="10" class="w-exp">
       <thead>
         <tr>
           <th>Dates</th>
@@ -86,7 +97,7 @@
 
     <!-- skills section  -->
     <h3>Skills</h3>
-    <table cellspacing="10">
+    <table cellspacing="10" class="skills">
       <tr>
         <td>HTML5</td>
         <td>⭐⭐⭐⭐⭐</td>
@@ -108,7 +119,9 @@
     <hr />
 
     <!-- links section  -->
-    <a href="./hobbies.html" target="_blank">My Hobbies</a>
-    <a href="./contact.html" target="_blank">Contact Me</a>
+    <div class="links-parent">
+      <a href="./hobbies.html" target="_blank" class="overline">My Hobbies</a>
+      <a href="./contact.html" target="_blank" class="overline">Contact Me</a>
+    </div>
   </body>
 </html>
