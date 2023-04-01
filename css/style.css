@@ -18,6 +18,12 @@ h1 {
   margin: auto;
 }
 
+.intro-table tr td + td {
+  padding: 0 2em;
+  border-radius: 20px;
+  background-color:#5f4e4e;
+}
+
 /* courses and certi parent div */
 hr + div , .hobbies , h1, p {
   text-align: center;
