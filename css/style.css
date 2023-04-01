@@ -2,29 +2,101 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #867070;
+  background-color: #4e2d2d;
   color: white;
+  padding: 10px;
 }
 
+/* name  */
+h1 {
+  letter-spacing: 1px;
+}
+
+/* profile table  */
+.intro-table,
+.skills{
+  margin: auto;
+}
+
+/* courses and certi parent div */
+hr + div , .hobbies , h1, p {
+  text-align: center;
+}
+
+/* courses and ertifications center */
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+/* profile logo styling */
+img {
+  border: 6px solid whitesmoke;
+  border-radius: 50%;
+}
+
+/* work experience and skills tables cells styling */
+.w-exp th,
+.w-exp td,
+.skills td {
+  padding: 5px 10px;
+  border: 3px solid whitesmoke;
+}
+
+/* work experience table center  */
+.w-exp {
+  margin: auto;
+  text-align: center;
+}
+
+/* headings center */
+h3 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* dotted rule styling */
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: whitesmoke;
+  border-width: 5px;
+  width: 5%;
+}
+
+/* links parent */
+.links-parent {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  padding: 1em;
+}
+
+/* links stylying */
 a {
   color: yellow;
-  font-style: normal;
 }
 
-img {
-    border: 0.5em solid whitesmoke;
-    border-radius: 50%;
+a.overline {
+  /* font-style: normal; */
+  text-decoration: overline;
 }
 
-.w-exp th, .w-exp td, .skills td {
-    padding: 2px 5px;
-    border: 3px solid whitesmoke;
+a.overline:hover {
+  border-bottom: 1px solid yellow;
+  text-decoration: none;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: whitesmoke ;
-    border-width: 5px;
-    width: 5%;
+
+form {
+  border: 3px solid whitesmoke;
+  margin: auto;
+  margin-top: 1em;
+  width: max-content;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+form input {
+  margin: 1em 0;
 }
